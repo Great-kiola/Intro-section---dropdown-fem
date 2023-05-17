@@ -173,6 +173,11 @@ nav .logoMenu .companyDrop ul li img {
     padding: 5px;
 }
 
+
+.arrow.active{
+    transition: 0.5s ease;
+    transform: rotate(180deg);
+}
 :root{
     --AlmostWhite: hsl(0, 0%, 98%);
     --MediumGray: hsl(0, 0%, 41%);
