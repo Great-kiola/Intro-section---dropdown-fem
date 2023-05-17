@@ -91,7 +91,18 @@ nav .signOut ul{
 }
 nav .signOut ul li, nav .logoMenu ul li{
     margin-left: 30px;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 500;
 }
+nav .signOut ul li:hover, nav .logoMenu ul li:hover{
+    font-weight: 700;
+}
+nav .logoMenu ul li img{
+    margin-left: 5px;
+}
+
 ul{
     list-style: none;
 }
@@ -100,7 +111,7 @@ a{
     color: var(--AlmostBlack);
 }
 .registerBtn{
-    border: 1px solid var(--AlmostBlack);
+    outline: 1px solid var(--AlmostBlack);
     background-color: transparent;
     padding: 10px 25px;
     border-radius: 10px;
