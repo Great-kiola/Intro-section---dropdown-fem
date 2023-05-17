@@ -74,6 +74,7 @@ nav{
     width: 1000px;
 }
 nav .logoMenu{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -121,8 +122,133 @@ a{
     background-color: var(--AlmostBlack);
     color: var(--AlmostWhite);
 }
+
+/* DropDowns */
+
+nav .logoMenu .featDrop{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    border-radius: 10px;
+    background-color: var(--AlmostWhite);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    /* display: none; */
+}
+nav .logoMenu .featDrop ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+}
+nav .logoMenu .featDrop ul li {
+    margin: 5px auto;
+}
+nav .logoMenu .featDrop ul li img {
+    padding: 5px;
+}
+
+
+nav .logoMenu .companyDrop{
+    position: absolute;
+    top: 30px;
+    left: 230px;
+    border-radius: 10px;
+    background-color: var(--AlmostWhite);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    /* display: none; */
+}
+nav .logoMenu .companyDrop ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+}
+nav .logoMenu .companyDrop ul li {
+    margin: 5px auto;
+}
+nav .logoMenu .companyDrop ul li img {
+    padding: 5px;
+}
+
 :root{
     --AlmostWhite: hsl(0, 0%, 98%);
     --MediumGray: hsl(0, 0%, 41%);
     --AlmostBlack: hsl(0, 0%, 8%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .featDrop ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+}
+.featDrop li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: red;
+}
+
+
+.featDrop ul li{
+    margin: 5px auto;
+}
+nav .logoMenu .featDrop ul li img{
+    padding: 10px;
+} */
