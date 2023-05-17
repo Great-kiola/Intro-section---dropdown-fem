@@ -99,6 +99,7 @@ nav .signOut ul li, nav .logoMenu ul li{
 }
 nav .signOut ul li:hover, nav .logoMenu ul li:hover{
     font-weight: 700;
+    cursor: pointer;
 }
 nav .logoMenu ul li img{
     margin-left: 5px;
