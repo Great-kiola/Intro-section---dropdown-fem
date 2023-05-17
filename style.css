@@ -134,7 +134,7 @@ nav .logoMenu .featDrop{
     background-color: var(--AlmostWhite);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
     padding: 20px;
-    /* display: none; */
+    display: none;
 }
 nav .logoMenu .featDrop ul {
     display: flex;
@@ -158,7 +158,7 @@ nav .logoMenu .companyDrop{
     background-color: var(--AlmostWhite);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
     padding: 20px;
-    /* display: none; */
+    display: none;
 }
 nav .logoMenu .companyDrop ul {
     display: flex;
@@ -174,9 +174,19 @@ nav .logoMenu .companyDrop ul li img {
 }
 
 
-.arrow.active{
+.arrow{
     transition: 0.5s ease;
-    transform: rotate(180deg);
+
+}
+.arrow.active{
+    rotate: 180deg;
+}
+
+.arrow2{
+    transition: 0.5s ease;
+}
+.arrow2.active{
+    rotate: 180deg;
 }
 :root{
     --AlmostWhite: hsl(0, 0%, 98%);
