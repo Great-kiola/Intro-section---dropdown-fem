@@ -1,9 +1,65 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Epilogue', sans-serif;
 }
 body{
     line-height: 1.5;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--AlmostWhite);
+}
+.textDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 800px;
+    margin-right: 50px;
+}
+.textDiv .btn{
+    width: 150px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--AlmostBlack);
+    color: var(--AlmostWhite);
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.textDiv .btn:hover{
+    background-color: transparent;
+    outline: 1px solid var(--AlmostBlack);
+    color: var(--AlmostBlack);
+}
+.textDiv h1{
+    line-height: 1;
+    word-wrap:break-word;
+    font-size: 5rem;
+    margin-bottom: 40px;
+}
+.textDiv p{
+    width: 400px;
+    margin-bottom: 40px;
+}
+.logoDiv .logo{
+    width: 80px;
+    margin-right: 40px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.container .imgDiv img{
+    width: 400px;
+}
+:root{
+    --AlmostWhite: hsl(0, 0%, 98%);
+    --MediumGray: hsl(0, 0%, 41%);
+    --AlmostBlack: hsl(0, 0%, 8%);
 }
