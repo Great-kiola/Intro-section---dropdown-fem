@@ -63,6 +63,53 @@ body{
 .container .imgDiv img{
     width: 400px;
 }
+
+
+nav{
+    position: fixed;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+nav .logoMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logoMenu ul{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .signOut ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .signOut ul li, nav .logoMenu ul li{
+    margin-left: 30px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--AlmostBlack);
+}
+.registerBtn{
+    border: 1px solid var(--AlmostBlack);
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.registerBtn:hover{
+    background-color: var(--AlmostBlack);
+    color: var(--AlmostWhite);
+}
 :root{
     --AlmostWhite: hsl(0, 0%, 98%);
     --MediumGray: hsl(0, 0%, 41%);
